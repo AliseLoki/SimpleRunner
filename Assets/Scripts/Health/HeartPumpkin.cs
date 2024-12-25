@@ -24,7 +24,7 @@ public class HeartPumpkin : MonoBehaviour
 
     public void ToEmpty()
     {
-        StartCoroutine(FillIn(0, 1, _lerpDuration, Destroy));
+        StartCoroutine(FillIn(1, 0, _lerpDuration, Destroy));
     }
 
     private void Destroy(float value)
